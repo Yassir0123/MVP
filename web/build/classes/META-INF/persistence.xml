@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="taskproject">
+	    <!-- Define the class for Hibernate which implements JPA -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+     <class>tasksentities.user</class>
+    <class>tasksentities.task</class>
+    <class>tasksentities.action</class>
+    <class>tasksentities.taskgrp</class>
+    <class>tasksentities.groupe</class>
+    <class>tasksentities.detailgroupe</class>
+    <class>tasksentities.actiongrp</class>
+    <class>tasksentities.category</class>
+    <!-- Define the object that should be persisted in the database -->
+ 
+
+      <properties>
+		
+		<!-- URL for DB -->
+         <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/taskbdd"/>
+		<!-- Username -->
+         <property name="javax.persistence.jdbc.user" value="root"/>
+		<!-- Password -->
+         <property name="javax.persistence.jdbc.password" value=""/>
+		<!-- Driver for DB database -->
+         <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+         <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+         <property name="hibernate.hbm2ddl.auto" value="update"/>
+          <property name="hibernate.show_sql" value="true"/>
+      </properties>
+      
+	</persistence-unit>
+</persistence>
