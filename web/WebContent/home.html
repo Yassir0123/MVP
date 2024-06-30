@@ -1,8 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="ISO-8859-1">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TASKERR</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -21,7 +20,6 @@
         .bgimg-1 {
             background-position: center;
             background-size: cover;
-            background-image: url("/w3images/mac.jpg");
             min-height: 100%;
         }
         .w3-bar .w3-button {
@@ -56,7 +54,6 @@
         .contact-icons a {
             margin-right: 16px;
             padding:15px;
-            
         }
     </style>
 </head>
@@ -93,23 +90,20 @@
     <a href="#features" class="w3-bar-item w3-button">Features</a>
     <!-- Added About link -->
     <a href="#about" class="w3-bar-item w3-button">About</a>
-
 </nav>
 
-<!-- Header with full-height image -->
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-left w3-text-white" style="padding: 48px;">
         <span class="w3-jumbo w3-hide-small">Start your TodoList account Now!</span><br>
         <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
-        <span class="w3-large">Stop wasting valuable time with no task gestion.</span>
+        <span class="w3-large">A simple and powerful task management tool</span>
         <p><br>
             <a href="login.jsp" class="btn btn-success" id="SQ" style="color: aliceblue; width: fit-content;">Start Today</a>
         </p>
     </div>
     <img src="https://freeiconshop.com/wp-content/uploads/edd/task-done-flat.png" class="w3-display-right w3-padding" style="width: 500px; height: auto; position: absolute; right: 10%; bottom: 20%;">
 </header>
-
 
 <!-- Feature Section -->
 <div class="w3-container" style="padding:128px 16px; background-color: aliceblue;" id="features">
@@ -141,14 +135,14 @@
         <!-- Add your personal story and team links here -->
         <p style="color: white; margin-bottom: 24px;">The idea for Taskerr stemmed from a challenging year our team endured while juggling demanding jobs and rigorous studies. Constantly under pressure from exams, job deadlines, and ongoing projects, we often sacrificed sleep to stay on top of everything, even with early starts. Our saving grace was meticulous task scheduling and deadline management, which provided clarity and structure amidst the chaos. This approach not only helped us navigate through our academic and professional commitments but also sparked conversations with peers facing similar challenges. We realized that many struggled to adapt and plan effectively due to the lack of user-friendly web applications for task management. This gap inspired us to create Taskerr: a task management web app designed to support students and professionals alike in achieving peak productivity. Taskerr offers intuitive interfaces and robust features that empower users to plan, track progress, and collaborate seamlessly—whether working individually or in teams.</p>
         <!-- Links to team members -->
-         <h3 class="w3-center" style="color: white; font-size: 24px; font-weight: bold; margin-bottom: 16px;">OUR CONTACTS</h3>
-       <div class="contact-icons">
-    <a href="https://www.linkedin.com/in/yassir-mzak" style="color: white;"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/ztote-achraf/" style="color: white;"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    <a href="https://github.com/Yassir0123/MVP/tree/main/web" style="color: white;"><i class="fa fa-github-square fa-3x"></i></a>
-    <a href="https://x.com/myassir2003" style="color: white;"><i class="fa fa-twitter-square fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/ztote-achraf/" style="color: white;"><i class="fa fa-twitter-square fa-3x"></i></a>
-</div>
+        <h3 class="w3-center" style="color: white; font-size: 24px; font-weight: bold; margin-bottom: 16px;">OUR CONTACTS</h3>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/yassir-mzak" style="color: white;"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/ztote-achraf/" style="color: white;"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            <a href="https://github.com/Yassir0123/MVP/tree/main/web" style="color: white;"><i class="fa fa-github-square fa-3x"></i></a>
+            <a href="https://x.com/myassir2003" style="color: white;"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/ztote-achraf/" style="color: white;"><i class="fa fa-twitter-square fa-3x"></i></a>
+        </div>
         <!-- GitHub repository link -->
         <p style="color: white; margin-top: 16px;">GitHub repository: <a href="https://github.com/Yassir0123/MVP/tree/main/web" style="color: white;">https://github.com/Yassir0123/MVP/tree/main/web</a></p>
     </div>
@@ -168,14 +162,6 @@
 </footer>
 
 <script>
-    // Modal Image Gallery
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-    }
-
     // Toggle between showing and hiding the sidebar when clicking the menu icon
     var mySidebar = document.getElementById("mySidebar");
 
