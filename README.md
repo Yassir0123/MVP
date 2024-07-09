@@ -8,6 +8,7 @@ Project Links:
 Deployed Site: [Taskerr Deployed Site](https://yassir0123.github.io/finallandingpage/ )
 Project Blog Article: [Taskerr Blog](https://taskerrproject.blogspot.com/2024/07/taskerr.html)
 Author LinkedIn: [Yassir Mzak](https://www.linkedin.com/in/yassir-mzak)
+
 Inspiration
 The idea for Taskerr stemmed from a challenging year our team endured while juggling demanding jobs and rigorous studies. Constantly under pressure from exams, job deadlines, and ongoing projects, we often sacrificed sleep to stay on top of everything, even with early starts. Our saving grace was meticulous task scheduling and deadline management, which provided clarity and structure amidst the chaos. This approach not only helped us navigate through our academic and professional commitments but also sparked conversations with peers facing similar challenges. We realized that many struggled to adapt and plan effectively due to the lack of user-friendly web applications for task management. This gap inspired us to create Taskerr: a task management web app designed to support students and professionals alike in achieving peak productivity. Taskerr offers intuitive interfaces and robust features that empower users to plan, track progress, and collaborate seamlessly—whether working individually or in teams.
 
